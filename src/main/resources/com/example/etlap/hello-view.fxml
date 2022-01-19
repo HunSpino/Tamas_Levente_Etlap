@@ -9,15 +9,16 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <HBox prefHeight="100.0" prefWidth="200.0">
+      <HBox prefHeight="40.0" prefWidth="40.0" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
+            <Button maxWidth="100.0" minWidth="50.0" mnemonicParsing="false" onAction="#onHozzadasButtonClick" prefWidth="100.0" text="Új étel felvétele" />
+            <Button maxWidth="100.0" minWidth="50.0" mnemonicParsing="false" onAction="#onModositasButtonClick" prefWidth="75.0" text="Módosítás" />
+            <Button maxWidth="100.0" minWidth="50.0" mnemonicParsing="false" onAction="#onTorlesButtonClick" prefWidth="75.0" text="Törlés" />
          </children>
       </HBox>
-      <TableView fx:id="foodTable" minHeight="200.0" prefHeight="200.0" prefWidth="275.0">
+      <TableView fx:id="foodTable" minHeight="200.0" prefHeight="200.0" prefWidth="300.0">
         <columns>
-          <TableColumn fx:id="colNev" minWidth="50.0" prefWidth="100.0" text="Név" />
+          <TableColumn fx:id="colNev" minWidth="50.0" prefWidth="125.0" text="Név" />
           <TableColumn fx:id="colKat" minWidth="50.0" prefWidth="100.0" text="Kategória" />
             <TableColumn fx:id="colAr" minWidth="50.0" prefWidth="75.0" text="Ár" />
         </columns>
