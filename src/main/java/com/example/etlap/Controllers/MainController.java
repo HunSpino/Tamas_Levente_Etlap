@@ -1,4 +1,4 @@
-package com.example.etlap;
+package com.example.etlap.Controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

@@ -5,4 +5,6 @@ module com.example.etlap {
 
     opens com.example.etlap to javafx.fxml;
     exports com.example.etlap;
+    exports com.example.etlap.Controllers;
+    opens com.example.etlap.Controllers to javafx.fxml;
 }
